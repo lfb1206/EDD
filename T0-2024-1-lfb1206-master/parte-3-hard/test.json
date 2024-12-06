@@ -1,0 +1,1 @@
+{"name": "parte-3-hard", "steps": [{"time_it": true, "require": ["./ship"], "include": ["input.txt"], "command": ["./ship", "input.txt", "output.txt"]}, {"require": ["output.txt"], "include": ["correct-output.txt", {"source": "../compare.sh", "target": "compare.sh"}], "command": ["sh", "./compare.sh", "output.txt", "correct-output.txt"]}]}

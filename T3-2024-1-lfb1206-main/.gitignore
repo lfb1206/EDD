@@ -1,0 +1,31 @@
+/find_groups
+/nyctalus_search
+/trash
+
+# Ignorar arhivos de prueba
+/tests
+/tests copy
+/output
+*.txt
+*.diff
+*.json
+*.sh
+
+# Solo incluir informe como /informe.pdf
+*.pdf
+!/informe.pdf
+*.zip
+
+# Miscelanea
+!.devcontainer/devcontainer.json
+.edd-cache
+__pycache__/
+.py[co]
+*Zone.Identifier
+/.ccls-cache/
+/.direnv/
+/bin
+/obj
+.vscode
+.DS_Store
+*.cmake
